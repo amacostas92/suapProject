@@ -40,7 +40,7 @@
                     <slide slot="slide-0">
                         <img
                             loading="lazy"
-                            class="col-12 no-padding banner-icon"
+                            class="col-12 no-padding banner-icon" style="display: block;margin-top: 5px;"
                             src="{{ asset('/themes/velocity/assets/images/banner.png') }}" />
                     </slide>
                 @endif

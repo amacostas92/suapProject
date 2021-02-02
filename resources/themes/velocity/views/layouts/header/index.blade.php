@@ -1,4 +1,6 @@
-<header class="sticky-header" v-if="!isMobile()">
+<header class="sticky-header" style="
+        margin-top: 5px;
+        margin-bottom: 5px;" v-if="!isMobile()">
     <div class="row col-12 remove-padding-margin velocity-divide-page">
         <logo-component></logo-component>
         <searchbar-component></searchbar-component>
